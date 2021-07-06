@@ -1,3 +1,7 @@
+.allign{
+    padding-left: 8%;
+    padding-top: 15%;
+}
 .orange{
     color: orange;
 }
@@ -11,6 +15,7 @@ h1{
 .flexible-container{
     display: flex;
     margin: bottom 0px;
+    gap: 8%;
 }
 .link-button{
     text-decoration: none;
@@ -19,16 +24,27 @@ h1{
     color: white;
     font-weight: 1200;
     border-radius: 50px;
+    box-shadow: 5px 5px 8px gray;
 }
 .background-image{
     background-image: url(Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: auto;
+    margin-bottom: auto;
+}
+#image{
+    padding-left: 20%;
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-bottom: -1%;
+    margin-top: auto;
 }
 .about-me{
-    padding-left: 30%;
-    padding-right: 15%;
-    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 10%;
+    margin-top: 6%;
+    
 }
 .my-recipies{
     padding-left: 10%;
@@ -39,4 +55,20 @@ h1{
 .my-recipies p{
     padding-left: 20%;
     padding-right: 20%;
+}
+.para-item{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 5%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+.paragraph{
+    text-align: left;
+}
+.para-item img{
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
 }
